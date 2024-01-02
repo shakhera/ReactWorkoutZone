@@ -1,0 +1,11 @@
+.container {
+  align-items: center;
+  text-align: center;
+  margin: 20px 0;
+}
+.users-container {
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  grid-gap: 30px;
+  margin-left: 70px;
+}

@@ -1,0 +1,14 @@
+.header {
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navigation a {
+  columns: #ffffff;
+  margin-left: 91px;
+}

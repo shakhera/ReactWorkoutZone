@@ -1,0 +1,48 @@
+[
+  {
+    "id": 1,
+    "name": "Starter Membership",
+    "price": 29.99,
+    "features": [
+      "Access to cardio area",
+      "Basic workout equipment",
+      "Limited group classes"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Standard Membership",
+    "price": 49.99,
+    "features": [
+      "Full gym access",
+      "Wide range of equipment",
+      "Access to all group classes"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Premium Membership",
+    "price": 79.99,
+    "features": [
+      "Full gym access + amenities",
+      "Personal training sessions",
+      "Specialized classes"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Elite Membership",
+    "price": 99.99,
+    "features": [
+      "VIP gym access",
+      "Exclusive amenities",
+      "Unlimited personal training sessions"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Student Membership",
+    "price": 19.99,
+    "features": ["Access to gym during off-peak hours", "Discounted classes"]
+  }
+]
