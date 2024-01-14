@@ -1,0 +1,15 @@
+.review-container {
+  /* margin-top: 64px; */
+  margin: 0 auto;
+}
+.btn-proceed {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  height: 56px;
+  border-radius: 4px;
+  background: #f90;
+  color: white;
+  align-items: center;
+  margin-top: 20px;
+}

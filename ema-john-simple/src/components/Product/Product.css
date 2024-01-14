@@ -11,6 +11,9 @@
   border-radius: 8px;
   margin: 7px;
 }
+.card-info {
+  margin: 10px 10px 0 10px;
+}
 .product-name {
   color: #0e161a;
   width: 267px;

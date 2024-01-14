@@ -19,3 +19,7 @@ nav.header a {
 nav.header a:hover {
   color: #ff9900;
 }
+.text-white {
+  color: white;
+  margin-left: 20px;
+}
