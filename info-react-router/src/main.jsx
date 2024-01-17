@@ -14,6 +14,7 @@ import Users from "./components/Users/Users.jsx";
 import UserDetails from "./components/UserDetails/UserDetails.jsx";
 import Posts from "./components/Posts/Posts.jsx";
 import PostDetail from "./components/PostDetail/PostDetail.jsx";
+import News from "./components/News/News.jsx";
 
 // const router = createBrowserRouter([
 //   {
@@ -69,6 +70,14 @@ const router = createBrowserRouter([
         element: <PostDetail></PostDetail>,
         loader: ({ params }) =>
           fetch(`https://jsonplaceholder.typicode.com/posts/${params.postId}`),
+      },
+      {
+        path: "/news",
+        element: <News></News>,
+        loader: () =>
+          fetch(
+            "https://the-news-dragon-server-g3jgqqb6c-shakheras-projects.vercel.app/news/"
+          ),
       },
 
       {
